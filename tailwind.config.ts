@@ -8,6 +8,12 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            maxWidth: {
+                maxWidth: '90rem',
+            },
+            padding: {
+                low: '1rem',
+            },
             colors: {
                 white: '#F6F6F6',
                 gray: {

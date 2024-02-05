@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import { inter } from '@/fonts';
 
-type contactType = {
+type contactProps = {
     imagePath: string;
     altText: string;
     content: string;
 };
 
-function Contact({ imagePath, altText, content }: contactType) {
+function Contact({ imagePath, altText, content }: contactProps) {
     return (
         <div
             className={
