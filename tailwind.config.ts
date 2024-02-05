@@ -8,7 +8,17 @@ const config: Config = {
     ],
     theme: {
         extend: {
-            colors: {},
+            colors: {
+                white: '#F6F6F6',
+                gray: {
+                    100: '#525252',
+                    200: '#313131',
+                },
+                blue: {
+                    100: '#8DBBFF',
+                    200: '#6D97D7',
+                },
+            },
         },
     },
     plugins: [],
