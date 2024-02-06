@@ -8,6 +8,9 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            borderRadius: {
+                low: '3px',
+            },
             maxWidth: {
                 maxWidth: '90rem',
             },
@@ -17,6 +20,7 @@ const config: Config = {
             colors: {
                 white: '#F6F6F6',
                 gray: {
+                    50: '#8D8D8D',
                     100: '#525252',
                     200: '#313131',
                 },
