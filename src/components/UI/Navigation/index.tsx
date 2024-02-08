@@ -1,3 +1,4 @@
+import NavLink from './NavLink';
 import { syne } from '@/fonts';
 
 function Navigation() {
@@ -7,21 +8,11 @@ function Navigation() {
                 'flex uppercase gap-x-10 text-gray-50 font-medium ' + syne.className
             }
         >
-            <li className='text-blue-200'>
-                <a href='#'>Inicio</a>
-            </li>
-            <li>
-                <a href='#'>Nosotros</a>
-            </li>
-            <li>
-                <a href='#'>Servicios</a>
-            </li>
-            <li>
-                <a href='#'>Profesionales</a>
-            </li>
-            <li>
-                <a href='#'>Contacto</a>
-            </li>
+            <NavLink styles='text-blue-200'>Inicio</NavLink>
+            <NavLink>Nosotros</NavLink>
+            <NavLink>Servicios</NavLink>
+            <NavLink>Profesionales</NavLink>
+            <NavLink>Contacto</NavLink>
         </ul>
     );
 }

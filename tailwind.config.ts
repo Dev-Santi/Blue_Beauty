@@ -8,6 +8,9 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            transitionDuration: {
+                normal: '300ms',
+            },
             borderRadius: {
                 low: '3px',
             },
